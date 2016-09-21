@@ -50,7 +50,7 @@ class VideoDownloader(object):
             semaphores.acquire()
             multiprocessing.Process(target = self.run_downloader, args = (video_url, 0.3))
             semaphores.release()
-        for idx in range(0, self._thread_number):
+        for _ in range(0, self._thread_number):
             semaphores.acquire()
         semaphores.release()
         pass
