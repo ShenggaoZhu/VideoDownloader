@@ -1,0 +1,8 @@
+2016-09-22 00:43:16,721 - root - WARNING -warn message
+2016-09-22 00:43:16,721 - root - ERROR -error message
+2016-09-22 00:43:16,721 - root - CRITICAL -critical message
+2016-09-22 00:43:16,721 - test - DEBUG -debug message
+2016-09-22 00:49:00,316 - root - WARNING -warn message
+2016-09-22 00:49:00,316 - root - ERROR -error message
+2016-09-22 00:49:00,316 - root - CRITICAL -critical message
+2016-09-22 00:49:00,316 - test - DEBUG -debug message
